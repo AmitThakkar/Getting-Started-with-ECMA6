@@ -42,4 +42,14 @@
     map2.forEach(function (value, key) {
         console.log("Key:", key, "Value:", value); // Key: name Value: Namita Malik     // Key: age Value: 25 ....
     });
+
+    let aObj = {name: 1, age: 2};
+    let aArray = [1, 2];
+    let aSet = new Set([1, 2, 3, 2, 1]);
+    let aMap = new Map([[1, 2], [3, 4], [5, 6]]);
+    map2.set(aObj, aArray);
+    map2.set(aArray, aSet);
+    map2.set(aSet, aMap);
+    map2.set(aMap, aObj);
+    console.log(map2);
 })();
