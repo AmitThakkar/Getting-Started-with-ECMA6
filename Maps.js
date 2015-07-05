@@ -3,6 +3,17 @@
  */
 (function () {
     "use strict";
+
+    var obj1 = {name: "Amit Kumar"};
+    var obj2 = {name: "Amit Thakkar"};
+    var map = {};
+    map[obj1] = "Amit Kumar";
+    map[obj2] = "Amit Thakkar";
+    console.log(map[obj1]); // Amit Thakkar
+    console.log(map[obj2]); // Amit Thakkar
+    console.log(map); // { '[object Object]': 'Amit Thakkar' }
+
+    // Map can have key or any Type.
     let map1 = new Map();
     map1.set('name', 'Amit Thakkar');
     map1.set('age', 27);
@@ -36,6 +47,11 @@
     // Iterating over values
     for (let value of map2.values()) {
         console.log("Value", value); // Value Namita Malik     // Value 25     // Value undefined
+    }
+
+    // Iterating over values
+    for (let entry of map2.entries()) {
+        console.log("Entry", entry); // Entry [ 'name', 'Namita Malik' ]     // Entry [ 'age', '25' ]     // Entry [ 'address', undefined ]
     }
 
     // Iterating over values
