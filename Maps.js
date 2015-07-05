@@ -9,9 +9,9 @@
     var map = {};
     map[obj1] = "Amit Kumar";
     map[obj2] = "Amit Thakkar";
-    console.log(map[obj1]); // Amit Thakkar
-    console.log(map[obj2]); // Amit Thakkar
-    console.log(map); // { '[object Object]': 'Amit Thakkar' }
+    console.log(map[obj1]);
+    console.log(map[obj2]);
+    console.log(map);
 
     // Map can have key or any Type.
     let map1 = new Map();
