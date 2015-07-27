@@ -11,7 +11,7 @@
     uniqueValues1.add(2);
     uniqueValues1.add(1);
     console.log(uniqueValues1.size); // 3
-    uniqueValues1.add(3); // 3 is already present so it will ignore.
+    uniqueValues1.add(3); // 3 is already present so it will be ignored.
     console.log(uniqueValues1.size); // 3
     uniqueValues1.add('3'); // 3 is string here, so it will be added.
     console.log(uniqueValues1); // Set { 3, 2, 1, '3' }

@@ -6,5 +6,10 @@
     const a = 10;
     console.log(a);
     //a++;
+    //var a = 20;
     console.log(a);
+    (function () {
+        var a = 20;
+        console.log(a);
+    })();
 })();
