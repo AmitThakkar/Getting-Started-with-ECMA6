@@ -19,6 +19,6 @@
     for (let d = 11; d < 11; d++) {
         console.log(d);
     }
-    console.log(c);
-    console.log(d);
+    console.log(c); // c is not defined
+    console.log(d); // d is not defined
 })();

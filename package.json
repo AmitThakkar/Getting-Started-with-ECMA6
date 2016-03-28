@@ -1,0 +1,28 @@
+{
+  "name": "getting_started_with_ecma6",
+  "version": "0.0.1",
+  "description": "This is demo repository for ecma6",
+  "main": "Let.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmitThakkar/Getting-Started-with-ECMA6.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ECMA6",
+    "ES15",
+    "ARROW",
+    "LET",
+    "CONST",
+    "JavaScript"
+  ],
+  "author": "Amit Thakkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmitThakkar/Getting-Started-with-ECMA6/issues"
+  },
+  "homepage": "https://github.com/AmitThakkar/Getting-Started-with-ECMA6#readme"
+}
