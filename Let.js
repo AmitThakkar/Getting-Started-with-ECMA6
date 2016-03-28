@@ -1,7 +1,7 @@
 /**
  * Created by Amit Thakkar on 05/07/15.
  */
-(function () {
+(() => {
     "use strict";
     var bool = true;
     if (bool) {

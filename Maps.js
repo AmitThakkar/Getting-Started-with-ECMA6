@@ -1,7 +1,7 @@
 /**
  * Created by Amit Thakkar on 23/06/15.
  */
-(function () {
+(() => {
     "use strict";
 
     var obj1 = {name: "Amit Kumar"};

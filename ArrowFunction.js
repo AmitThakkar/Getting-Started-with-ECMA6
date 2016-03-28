@@ -1,7 +1,7 @@
 /**
  * Created by Amit Thakkar on 27/07/15.
  */
-(function () {
+(() => {
     "use strict";
     /*
      * 1. "this" binding is a common source of error in JavaScript. So The value of this inside of the function is
