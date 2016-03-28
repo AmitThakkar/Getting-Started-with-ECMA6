@@ -28,6 +28,8 @@
 
     console.log(amit.getName()); // Amit Thakkar
     console.log(amit.getId()); // 32
+    console.log(amit.name); // Amit Thakkar
+    console.log(amit.id); // 32
     console.log(namita.getName()); // Namita Malik
     console.log(namita.getId()); // 45
 })();
